@@ -1,10 +1,48 @@
-<<<<<<< HEAD
-## Next.js App Router Course - Starter
-
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
-
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
-=======
 # algo-camp-front-Kurozawa-Ryota
 Node version v26.0.0
->>>>>>> origin/main
+
+# アプリ名：Logic Pro
+
+## 概要
+競技プログラミングサイトの管理画面
+
+## 主な機能
+- ログイン画面
+IDとパスワードの入力（認証機能なし）
+右上ユーザー登録ボタンから新規登録画面へ
+
+- 新規登録画面
+名前とID、パスワードを入力し登録
+
+- コンテスト管理画面
+予定されている」「開催中」「終了済み」のコンテストの一覧表示
+コンテストの削除機能（確認ポップアップあり）
+
+- コンテスト作成・編集機能
+コンテスト名、開催日時、終了日時の設定
+カレンダーで日時の入力
+コンテスト実施問題の複数選択、追加、削除機能
+各入力項目の未入力チェック、日時順序の矛盾確認（エラーメッセージの表示）
+
+- 問題管理画面
+コンテストで使用される各問題の名前、実行時間制限、メモリ制限の表示
+問題の削除機能（確認ポップアップあり）
+
+## 技術スタック
+- Frontend: Next.js (App Router), TypeScript, Tailwind CSS
+- Backend: FastAPI
+- DB: Supabase
+
+## パッケージインストール
+npm install　
+
+## サーバーの起動
+npm run dev
+httm://localhost:3000に接続
+
+
+
+
+
+
+

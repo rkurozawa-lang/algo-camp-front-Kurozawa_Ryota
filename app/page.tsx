@@ -10,7 +10,7 @@ export default function Page() {
   const [loginpassword, setloginPassword] = useState('');
 
   return (
-    <main className="flex min-h-screen flex-col p-2 ">
+    <main className="flex min-h-screen flex-col  ">
       <div className="flex h-20 rounded-lg bg-blue-500 ppr-4 pl-12 md:h-28 ">
         <AcmeLogo />
         <div className="absolute  left-1/2 top-1/2 -translate-x-1/2 -translate-y-3/4 -mt-80">
@@ -22,11 +22,6 @@ export default function Page() {
             className="object-contain"
           />
         </div>
-        <Link
-    href="/sign-up"
-    className="absolute top-12 right-10 bg-white text-blue-600 px-10 py-2 rounded-lg text-lg font-bold">
-    ユーザー登録
-        </Link>
 
       </div>
 
